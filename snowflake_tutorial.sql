@@ -341,4 +341,80 @@ FROM CUSTOMER A CROSS JOIN CUSTOMER B CROSS JOIN CUSTOMER C CROSS JOIN (
 SELECT COUNT(*) FROM large_table;
 
 
+-- STANDARD license has no permission to create multicuster based
 CREATE WAREHOUSE AS_WH WITH WAREHOUSE_SIZE = 'XSMALL' MIN_CLUSTER_COUNT = 1 MAX_CLUSTER_COUNT = 3 SCALING_POLICY = 'STANDARD' AUTO_SUSPEND = 300 AUTO_RESUME = TRUE;
+
+
+
+
+
+----
+--- Clustering
+----
+
+CREATE DATABASE performance_test;
+
+USE DATABASE performance_test
+
+CREATE TABLE transactions (
+    Transaction_Date DATE,
+    Customer_ID string,
+    Transaction_ID integer,
+    Amount integer
+);
+
+CREATE OR REPLACE STAGE perf_stage url='s3://snowflake-essentials/streaming_data_ingest/Transactions';
+
+LIST @perf_stage;
+
+COPY INTO transactions
+    FROM @perf_stage
+    file_format = (type=csv field_delimiter='|' skip_header = 1)
+
+
+SELECT COUNT(*) FROM transactions;
+
+-- create another transactions table, we will populate large amounts of data 
+
+CREATE TABLE transactions_large (
+    Transaction_Date DATE,
+    Customer_ID string,
+    Transaction_ID integer,
+    Amount integer
+);
+
+INSERT INTO transactions_large
+SELECT a.Transaction_Date + MOD(RANDOM(), 2000), RANDOM(), a.Customer_ID, a.Amount
+FROM transactions a CROSS JOIN transactions b CROSS JOIN transactions c CROSS JOIN transactions d;
+
+
+
+SELECT COUNT(*) FROM transactions_large WHERE TRANSACTION_DATE = '2018-12-18';
+
+CREATE TABLE transactions_clustered_date (
+    Transaction_Date DATE,
+    Customer_ID string,
+    Transaction_ID integer,
+    Amount integer
+) CLUSTER BY (Transaction_Date);
+
+
+INSERT INTO transactions_clustered_date SELECT * FROM transactions_large;
+
+SELECT COUNT(*) FROM transactions_clustered_date
+
+SELECT COUNT(*) FROM transactions_large WHERE TRANSACTION_DATE = '2018-12-18';
+
+
+
+CREATE TABLE transactions_clustered_month (
+    Transaction_Date DATE,
+    Customer_ID string,
+    Transaction_ID integer,
+    Amount integer
+) CLUSTER BY (date_trunc('Month', Transaction_Date));
+
+INSERT INTO transactions_clustered_month SELECT * FROM transactions_large;
+
+SELECT COUNT(*) FROM transactions_clustered_month WHERE date_trunc('MONTH', Transaction_Date) = '2018-11-01';
+
