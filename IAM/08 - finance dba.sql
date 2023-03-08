@@ -1,0 +1,20 @@
+-- logged in as the FINANCE DBA create new table
+-- and grant access to the FINANCE analyst role
+
+-- you would be able to do so since the FINANCE dba role 
+-- owns the FINANCE_DATABASE
+
+CREATE TABLE FINANCE_DATABASE.PUBLIC.TRANSACTIONS
+(
+  CUSTOMER_ID STRING,
+  TXN_DATE DATE,
+  TXN_AMT INTEGER
+);
+
+-- Grant usage on the database and the schema
+GRANT USAGE ON DATABASE FINANCE_DATABASE TO ROLE FINANCE_ANALYST;
+GRANT USAGE ON SCHEMA FINANCE_DATABASE.PUBLIC TO ROLE FINANCE_ANALYST;
+
+-- Grant select on the table
+GRANT SELECT ON TABLE FINANCE_DATABASE.PUBLIC.TRANSACTIONS TO ROLE FINANCE_ANALYST;
+

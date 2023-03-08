@@ -1,0 +1,2 @@
+https://docs.snowflake.com/en/user-guide/snowsql-install-config.html
+https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/index.html

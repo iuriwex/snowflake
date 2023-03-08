@@ -1,0 +1,101 @@
+Customer_ID|Customer_Name|Customer_Email|Customer_City|Customer_State|Customer_DOB
+1679080894999|Gregory Manning|Nam@congueaaliquet.ca|Napier|North Island|2010-01-27
+1657042285799|Brenden Guy|sapien.Aenean.massa@tortoratrisus.org|Hawera|NI|1961-07-18
+1640080675299|Amery Stafford|venenatis@FuscemollisDuis.com|Oamaru|South Island|2003-07-10
+1605071878799|Raja Higgins|Curabitur@ipsum.com|Waitara|North Island|1996-08-02
+1666060968699|Harrison Collins|aliquam@nulla.com|Kerikeri|North Island|1964-06-26
+1608022079599|Dale Delacruz|dignissim.pharetra.Nam@consectetuermaurisid.edu|Temuka|SI|1957-10-25
+1664111446899|Eaton Figueroa|pede.Cras.vulputate@nibhDonec.co.uk|Levin|North Island|1974-04-10
+1625051529599|Ross Haley|Quisque@volutpat.com|Gore|South Island|2014-09-06
+1621100177299|Beau Bolton|Integer@InloremDonec.co.uk|Waiuku|NI|2019-09-27
+1636021869999|Eaton Mclean|vel.arcu@Nulla.edu|Blenheim|South Island|1983-11-08
+1698031624599|Samson Murphy|fames@liberoDonec.edu|Waiheke Island|NI|2005-06-06
+1603021875899|Nigel Harris|fermentum.risus.at@ipsumnuncid.ca|Waiheke Island|NI|1983-08-14
+1626050780999|Oscar Boyer|Pellentesque.ultricies.dignissim@eratin.net|Nelson|SI|1964-04-14
+1608010158099|Carter Townsend|a.scelerisque.sed@dolordolortempus.ca|Gisborne|North Island|1967-05-08
+1692091827899|Talon Swanson|et@suscipitestac.net|Tokoroa|North Island|1951-08-14
+1685032285499|Mark Kent|massa@convallisin.net|Kerikeri|North Island|1974-12-21
+1636061972399|Ethan Burgess|Morbi@Duisat.co.uk|Matamata|NI|2016-07-17
+1667082325599|Clarke Newton|eu.enim.Etiam@dis.org|Dannevirke|North Island|1952-09-15
+1692012127399|Hiram Powers|at.velit.Pellentesque@neque.org|Rangiora|South Island|1964-05-01
+1664071076299|Amery Schmidt|imperdiet.ornare@eget.co.uk|Morrinsville|North Island|1965-09-11
+1611062136699|Ali Neal|tellus@dolortempusnon.edu|New Plymouth|North Island|1969-02-23
+1687050949299|Chester Henry|orci.sem@ut.co.uk|Temuka|South Island|2011-10-02
+1676122168199|Kieran Bryan|lorem.Donec.elementum@neque.org|Balclutha|South Island|1975-03-29
+1676080600699|Ignatius Craft|ligula@ullamcorpervelit.net|Queenstown|SI|2013-03-11
+1603040179699|Ethan Reese|Integer.sem.elit@est.net|Hastings|North Island|1970-10-11
+1643082128499|Raphael Harmon|sollicitudin.a.malesuada@tinciduntaliquamarcu.com|Wellington|NI|2006-02-24
+1640091193699|Grant Banks|elit.pretium.et@necmalesuadaut.com|Auckland|NI|1974-01-23
+1634112691499|Roth Downs|non.sapien@justoPraesent.ca|Whakatane|NI|1972-09-09
+1640011422599|Cade Terry|in@Sedeu.net|Tauranga|North Island|1973-06-03
+1662041963499|Murphy Morton|augue.malesuada@sed.org|Dunedin|SI|2016-01-02
+1600040955499|Randall Flowers|dui@nuncestmollis.ca|Kerikeri|North Island|1989-04-23
+1699080729999|Philip Dickerson|at.augue.id@Nam.org|Wanganui|NI|1968-04-08
+1683041591499|Coby Dickerson|mauris.ipsum.porta@dui.com|Matamata|NI|1958-09-03
+1696121343799|Jonah Velasquez|ullamcorper@sollicitudinorcisem.org|Kerikeri|North Island|1976-08-28
+1601031596799|Amir Cochran|facilisis@magnaCrasconvallis.com|Waiuku|North Island|2015-01-18
+1609092922899|Nissim Olson|erat@velitegestas.org|Kerikeri|North Island|2011-08-25
+1690010165099|Troy Bennett|eros.turpis@anteipsum.ca|Masterton|North Island|1962-12-11
+1650012176399|Gray Moran|Nulla.eu.neque@Curabituregestas.co.uk|Dannevirke|North Island|1961-10-02
+1652101179099|Eagan Gill|Nam@nec.ca|New Plymouth|NI|1986-06-09
+1614020954799|Boris Alford|facilisis@Donec.co.uk|North Shore|North Island|2020-06-20
+1670031777699|William Garrison|nonummy.ultricies.ornare@dolorFuscemi.edu|Whangarei|North Island|1993-03-28
+1685112241299|Yardley Shepard|neque.non@orciquislectus.net|Tauranga|NI|1969-08-23
+1673050750299|Ulysses Christian|ut@etrutrumnon.ca|Taupo|North Island|1972-01-19
+1646030897799|Knox Mccullough|porttitor.eros@primisinfaucibus.net|Matamata|North Island|1979-06-11
+1625120130299|Tyrone Burnett|vel@dapibus.ca|Ashburton|SI|2020-01-22
+1665031238799|Caleb Fitzpatrick|orci@In.ca|Dannevirke|NI|2015-07-28
+1696100910299|Austin Francis|nec@placerateget.net|Huntly|North Island|2015-12-19
+1650091886699|Cody Welch|risus.Quisque@seddolorFusce.net|Te Puke|NI|2004-03-03
+1638063049099|Dylan Mclaughlin|Curabitur@vitae.ca|Timaru|SI|1971-07-03
+1659092799599|Dane Sampson|quis.pede@mi.co.uk|Palmerston North|NI|1963-10-30
+1609080806499|Prescott Martin|molestie@doloregestasrhoncus.org|Auckland|NI|1957-07-04
+1633043019699|Hashim Carney|cursus@mattisvelit.co.uk|Waiuku|NI|2011-07-08
+1633040998699|Martin Reid|Quisque.ornare@liberodui.ca|Blenheim|South Island|1974-09-09
+1664031938399|Hakeem Maxwell|arcu.et@massaVestibulum.com|Kapiti|NI|1982-05-10
+1623070290299|Howard Kirkland|non.enim.Mauris@vitae.ca|Thames|NI|1990-05-02
+1676122622699|Nathaniel Gibbs|elit.elit.fermentum@tristique.ca|Greymouth|SI|1991-06-16
+1605100179299|Alan Peters|vehicula.Pellentesque.tincidunt@eros.org|Queenstown|SI|1991-01-28
+1693030397399|Brendan Vazquez|ut.aliquam.iaculis@pretium.ca|New Plymouth|North Island|1952-01-24
+1604072499999|Carl Palmer|luctus.sit.amet@magna.edu|Gore|SI|1957-01-22
+1688051869699|Benedict Hubbard|nulla@atvelitPellentesque.net|Te Puke|North Island|1985-09-29
+1659111737499|Talon Hartman|molestie.sodales.Mauris@Inlorem.org|Temuka|SI|1971-06-17
+1648100218199|Colorado Ramos|nibh.enim.gravida@in.ca|Upper Hutt|NI|1966-01-26
+1677103067899|Jin Cherry|facilisi.Sed.neque@egestas.org|Queenstown|South Island|1963-03-10
+1680072380099|Justin Reynolds|arcu.Vestibulum@nibhvulputate.com|Motueka|South Island|2010-07-08
+1672101988299|Giacomo Bowers|sit.amet@amalesuadaid.org|Pukekohe|North Island|1961-06-24
+1622120704599|Zeus Norton|ante@posuerecubiliaCurae.com|Palmerston North|NI|1999-06-19
+1628032359799|Giacomo Guy|malesuada.fames.ac@feugiattelluslorem.net|Rangiora|South Island|2011-05-14
+1676102657399|Channing Mckay|est@eratvolutpatNulla.ca|Wellington|NI|1995-07-11
+1690111040799|Martin Schneider|amet.risus@dictummiac.edu|Nelson|South Island|1966-02-13
+1659121760299|Kirk Townsend|erat@pedemalesuada.ca|Te Awamutu|NI|1963-07-29
+1653041723099|Louis Church|Nunc.lectus@loremipsum.co.uk|Waitakere|NI|2007-03-19
+1671022726899|Howard Greene|sociosqu@maurisblanditmattis.co.uk|Kapiti|North Island|1976-05-02
+1626091971199|Mannix Rodriguez|vel.pede.blandit@orci.ca|Tauranga|North Island|2011-05-30
+1632061608999|Holmes Davis|scelerisque.dui.Suspendisse@Proinnonmassa.co.uk|Huntly|North Island|1953-07-07
+1660060654299|Clark Shields|justo.faucibus@auctorvitae.ca|Wanaka|SI|2010-10-15
+1608080252799|Kevin Rich|pede.sagittis.augue@Duisa.net|Queenstown|South Island|1952-03-20
+1671012540999|Malik Mccoy|lacus.Nulla.tincidunt@lacusQuisque.co.uk|Dannevirke|North Island|1956-02-05
+1659060816399|Elton Barr|lacus.Quisque.purus@Curabitur.com|Wellington|North Island|1969-12-27
+1677061166399|Prescott Clarke|ligula@Namnulla.org|Whangarei|NI|1999-09-20
+1667083096499|Caleb Padilla|facilisis.lorem.tristique@estcongue.co.uk|Rangiora|SI|1972-12-04
+1672122633199|Gil Wood|Integer.vulputate@egetodio.net|Matamata|North Island|1987-10-29
+1662072568499|Jason Bailey|gravida.sit.amet@purusinmolestie.edu|Christchurch|South Island|2008-05-30
+1687032184899|Jared Dominguez|commodo.hendrerit@atlibero.edu|Te Puke|NI|1971-10-22
+1697092138599|Levi Moore|Quisque@Nulla.co.uk|Tokoroa|NI|1982-02-01
+1628121106399|Rogan Roach|elementum@Nam.net|Picton|SI|2009-04-28
+1653121260499|Asher Castaneda|aliquet.Phasellus@mauriselit.co.uk|Palmerston North|North Island|1977-09-16
+1652071715399|Leonard Harrison|ullamcorper.Duis.cursus@aenim.edu|New Plymouth|North Island|1972-07-16
+1617031458299|Wyatt Hess|scelerisque.sed.sapien@at.co.uk|Whangarei|NI|1973-03-28
+1662071284199|Gareth Mcdonald|orci.Ut.sagittis@necligula.org|Morrinsville|North Island|1981-08-26
+1650023097999|Brenden Blackburn|Donec.tempor@dui.co.uk|Dannevirke|North Island|1961-01-09
+1694063033499|Fulton Pena|ante.dictum.mi@convallisincursus.com|Auckland|NI|1989-05-04
+1640061856499|Reese Powell|nibh@cursus.com|Ashburton|SI|1992-05-09
+1655071765599|Hakeem Russell|pede.sagittis@varius.ca|Auckland|North Island|2011-04-11
+1640103090399|Edward Delaney|est@ipsumnon.net|Whangarei|North Island|1980-10-16
+1685082159299|Jarrod Valdez|Duis@in.co.uk|Pukekohe|North Island|2007-10-08
+1645011897499|Uriah Lee|nunc.nulla.vulputate@nulla.org|Matamata|NI|1979-07-15
+1632060523699|Zachary Perry|at@Proinvelit.ca|Waiheke Island|North Island|1987-08-21
+1604020703799|Quentin Garner|a.nunc.In@estNuncullamcorper.com|Rotorua|North Island|1961-07-25
+1695032981399|Daniel Griffith|scelerisque.neque@Namconsequat.edu|Kapiti|North Island|1955-07-21
+1696010747899|Lamar Cruz|mattis.ornare@ornareIn.edu|Nelson|South Island|1999-05-14

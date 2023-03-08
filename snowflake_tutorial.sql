@@ -88,6 +88,8 @@ CREATE TABLE customer (
 
 
 
+
+
 -- Creating a staging area. Create an external stage using the S3 bucket that we create in the last step
 CREATE OR REPLACE stage bulk_copy_example_stage url='s3://snowflake-essentials/ingesting_data/new_customer'
 
@@ -304,3 +306,39 @@ SELECT COUNT(*) FROM transactions WHERE transaction_date = '2019-09-02'
 
 
 
+
+
+-- CACHE
+-- grant USAGE t oa database to public role
+GRANT USAGE ON DATABASE performance_test TO ROLE PUBLIC;
+GRANT USAGE ON SCHEMA performance.PUBLIC TO ROLE PUBLIC;
+GRANT SELECT ON TABLE performance.PUBLIC.TRANSACTIONS_LARGE TO ROLE PUBLIC;
+
+
+
+
+CREATE TABLE large_table (
+    Customer_ID string,
+    Customer_Name string,
+    Customer_Email string,
+    Customer_City string,
+    Customer_State string,
+    Customer_DOB DATE
+);
+
+INSERT INTO large_table
+SELECT
+    RANDOM() AS customer_id,
+    UUID_STRING() AS Customer_Name,
+    UUID_STRING() AS Customer_Email,
+    UUID_STRING() AS Customer_City,
+    UUID_STRING() AS Customer_State,
+    A.Customer_DOB
+FROM CUSTOMER A CROSS JOIN CUSTOMER B CROSS JOIN CUSTOMER C CROSS JOIN (
+    SELECT TOP 20 * FROM CUSTOMER
+)  D;
+
+SELECT COUNT(*) FROM large_table;
+
+
+CREATE WAREHOUSE AS_WH WITH WAREHOUSE_SIZE = 'XSMALL' MIN_CLUSTER_COUNT = 1 MAX_CLUSTER_COUNT = 3 SCALING_POLICY = 'STANDARD' AUTO_SUSPEND = 300 AUTO_RESUME = TRUE;

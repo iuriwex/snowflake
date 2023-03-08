@@ -1,0 +1,1 @@
+https://snowflake-essentials.s3-ap-southeast-2.amazonaws.com/ingesting_data/new_customer/2019-09-24/generated_customer_data.csv
